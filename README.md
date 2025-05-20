@@ -19,7 +19,7 @@ Write the C Program using Linux message queues API
 Execute the C Program for the desired output. 
 
 # PROGRAM:
-~
+~~~
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -78,7 +78,7 @@ int main()
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
 }
-~
+~~~
 
 ## C program that receives a message from message queue and display them
 
@@ -86,9 +86,9 @@ int main()
 
 
 
-## OUTPUT
-![373206758-8ab47ac4-b4c0-40e7-bfe8-da4c4c254f1c](https://github.com/user-attachments/assets/b6e3d1f0-0846-4346-a3c2-0faaeadf976e)
 
+## OUTPUT
+![373206758-8ab47ac4-b4c0-40e7-bfe8-da4c4c254f1c](https://github.com/user-attachments/assets/f695b409-e7cc-42fa-a014-ba4f2f3ec4a1)
 
 
 
